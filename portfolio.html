@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="logo link" href="./index.html"><span class="web">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="site-nav-item"><a class="link" href="./index.html">Студия</a></li>
+                    <li class="site-nav-item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="site-nav-item"><a class="link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+        
+            <ul class="our-contacts list">
+                <li class="our-contacts-item">
+                    <a class="link" href="mailto:info@devstudio.com">
+                        <svg class="our-contacts-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="our-contacts-item">
+                    <a class="link" href="tel:+380961111111">
+                        <svg class="our-contacts-icon" width="10" height="16">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    </header>
+
+    <main>
+        <!--Portfolio-->
+        <section class="section portfolio">
+            <div class="container">
+                
+                <!-- Filters -->
+                
+                <ul class="filters list">
+                    <li class="item"><button type="button" class="button">Все</button></li>
+                    <li class="item"><button type="button" class="button">Веб-сайты</button></li>
+                    <li class="item"><button type="button" class="button">Приложения</button></li>
+                    <li class="item"><button type="button" class="button">Дизайн</button></li>
+                    <li class="item"><button type="button" class="button">Маркетинг</button></li>
+                </ul>
+
+                <!-- Cards -->
+
+                <h1 class="portfolio-title visually-hidden">Портфолио</h1>
+                <ul class="portfolio-list list">
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <div class="portfolio-box">
+                                <img class="image" src="./images/portfolio/technocrack.jpg" width="370" height="294" alt="Технокряк">  
+                                <p class="portfolio-card-subtitle">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>      
+                            </div>                                            
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Технокряк</h2>
+                                <p class="text">Веб-сайт</p>
+                            </div>   
+                        </a>                                             
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/poster_nba.jpg" width="370" height="294" alt="Постер">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                                <p class="text">Дизайн</p>
+                            </div> 
+                        </a>                                               
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/restaurant_seafood.jpg" width="370" height="294" alt="Логотип ресторана">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Ресторан Seafood</h2>
+                                <p class="text">Приложение</p>
+                            </div> 
+                        </a>                       
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/headphones.jpg" width="370" height="294" alt="Нвушники">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Проект Prime</h2>
+                                <p class="text">Маркетинг</p>
+                            </div>  
+                        </a>                                               
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/boxes.jpg" width="370" height="294" alt="Коробки">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Проект Boxes</h2>
+                                <p class="text">Приложение</p>
+                            </div>  
+                        </a>                                             
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/monitor.jpg" width="370" height="294" alt="Монитор">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Inspiration has no Borders</h2>
+                                <p class="text">Веб-сайт</p>
+                            </div> 
+                        </a>                                              
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/magazine.jpg" width="370" height="294" alt="Журнал">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Издание Limited Edition</h2>
+                                <p class="text">Дизайн</p>
+                            </div>
+                        </a>                        
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/label.jpg" width="370" height="294" alt="Label">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Проект LAB</h2>
+                                <p class="text">Маркетинг</p>
+                            </div> 
+                        </a>                                              
+                    </li>
+                    <li class="item">
+                        <a class="portfolio-card link" href="">
+                            <img class="image" src="./images/portfolio/growing_business.jpg" width="370" height="294" alt="Развитие бизнеса">
+                            <div class="portfolio-item-content">
+                                <h2 class="title">Growing Business</h2>
+                                <p class="text">Приложение</p>
+                            </div>
+                        </a>                  
+                    </li>
+                </ul>
+            </div>
+        </section>    
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left-side">
+                <div class="footer-address-side">
+                    <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
+                    <address class="address">
+                        <p>г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer-list list">
+                            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                            </li>
+                            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-social-list-side">
+                    <p class="footer-title">присоединяйтесь</p>
+                    <ul class="footer-social-list list">
+                        <li class="item">
+                            <a href="" class="social-list-link link">
+                                <svg class="social-list-icon footer-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="" class="social-list-link link">
+                                <svg class="social-list-icon footer-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="" class="social-list-link link">
+                                <svg class="social-list-icon footer-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="" class="social-list-link link">
+                                <svg class="social-list-icon footer-icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right-side">
+                <p class="footer-title">Подпишитесь на рассылку</p>
+                <form class="footer-form">
+                    <label>
+                        <input class="footer-form-input" type="email" name="email" placeholder="E-mail">
+                    </label>
+                    <button class="button footer" type="submit">Подписаться<svg class="footer-form-icon" width="24"
+                            height="24">
+                            <use href="./images/sprite.svg#send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

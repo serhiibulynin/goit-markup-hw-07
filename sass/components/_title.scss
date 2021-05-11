@@ -1,0 +1,38 @@
+.title {
+  .features-list & {
+    margin-left: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .portfolio-list & {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+
+  .portfolio-list & {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+
+  .team-list & {
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+
+  .portfolio &,
+  .team-list &,
+  .features-list & {
+    color: var(--title-text-color);
+  }
+}
