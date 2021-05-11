@@ -221,7 +221,7 @@ img {
 
 .modal-form-term:checked + .modal-form-term-desc .check-box {
   background-color: var(--accent-color);
-  border: none;
+  border: 1px solid var(--accent-color);
 }
 
 .modal-form-term:focus + .modal-form-term-desc .check-box {
