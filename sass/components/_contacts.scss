@@ -1,4 +1,4 @@
-.our-contacts .link {
+.our-contacts__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,20 +10,30 @@
   letter-spacing: 0.02em;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.our-contacts {
-  display: flex;
-  margin-left: auto;
-}
-.our-contacts-icon {
+.our-contacts__icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .our-contacts__link:hover &,
+  .our-contacts__link:focus & {
+    fill: var(--accent-color);
+  }
 }
 
-.our-contacts .link:hover .our-contacts-icon,
-.our-contacts .link:focus .our-contacts-icon {
-  fill: var(--accent-color);
+.our-contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.our-contacts__link:hover,
+.our-contacts__link:focus {
+  color: var(--accent-color);
 }

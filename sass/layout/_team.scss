@@ -5,7 +5,7 @@
   margin-top: -30px;
 }
 
-.team-list .item {
+.team-list__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
@@ -16,18 +16,26 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-content {
+.team-list__content {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.section.team {
+.section__team_bg_color {
   background-color: var(--button-bg-color);
 }
 
-.team-list .text {
+.team-list__text {
   font-size: 16px;
   line-height: 1.18;
   margin-bottom: 16px;
+}
+.team-list__title {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: var(--title-text-color);
 }
