@@ -1,3 +1,6 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
 @import './base/common';
 @import './base/container';
 @import './base/section';
@@ -5,7 +8,6 @@
 @import './components/backdrop';
 @import './components/button';
 @import './components/close-btn';
-
 @import './components/logo';
 @import './components/modal-form';
 @import './components/modal';
@@ -22,6 +24,3 @@
 @import './layout/portfolio';
 @import './layout/team';
 @import './layout/works';
-
-@import './utils/variables';
-@import './utils/visually-hidden';
