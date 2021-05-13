@@ -650,6 +650,10 @@ img {
   color: var(--accent-color);
 }
 
+.site-nav__link_current {
+  color: var(--accent-color);
+}
+
 .hero {
   max-width: 1600px;
   margin: 0px auto;
